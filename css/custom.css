@@ -58,3 +58,11 @@ nav {
 .dropdown:hover .dropdown-menu {
   display: block;
 }
+
+/* Hero */
+
+h1 {
+  text-align: center;
+  margin-top: 7rem;
+  line-height: 6rem;
+}
