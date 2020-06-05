@@ -64,5 +64,74 @@ nav {
 h1 {
   text-align: center;
   margin-top: 7rem;
+  margin-bottom: 7rem;
   line-height: 6rem;
+}
+#h1-compact {
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+  line-height: 5rem;
+}
+
+/* Sections */
+
+@media (min-width: 568px) and (max-width: 993px) {
+  .section-img img {
+    max-width: 500px;
+  }
+}
+@media (max-width: 993px) {
+  .section-img {
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 769px) {
+  .presentation-project {
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+  }
+}
+
+.section-title {
+  border-top: #DDD solid 1px;
+  text-align: center;
+}
+h2 {
+  display: inline-block;
+  border-right : #DDD solid 1px;
+  border-bottom: #DDD solid 1px;
+  border-left: #DDD solid 1px;
+  padding-right: 15px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  border-radius: 0 0 5px 5px;
+}
+.separator {
+  display: inline-block;
+  width: 1px;
+  border-right: #DDD solid 1px;
+  height: 70%;
+}
+.presentation-project {
+  margin: 50px;
+}
+.section-img {
+  justify-content: center;
+}
+.section-text {
+  margin: auto;
+}
+.section-text ul {
+  max-width: 640px;
+  max-height: 426px;
+  border-top: #DDD dashed 1px;
+  border-bottom: #DDD dashed 1px;
+  margin-bottom: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  list-style: circle;
+}
+.section-text li {
+  margin-top: 12px;
+  margin-bottom: 12px;
 }
