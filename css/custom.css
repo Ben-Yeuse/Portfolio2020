@@ -83,6 +83,7 @@ h1 {
 @media (max-width: 993px) {
   .section-img {
     margin-bottom: 30px;
+    order: -1;
   }
 }
 @media (max-width: 769px) {
@@ -113,7 +114,7 @@ h2 {
   height: 70%;
 }
 .presentation-project {
-  margin: 50px;
+  margin: 90px;
 }
 .section-img {
   justify-content: center;
