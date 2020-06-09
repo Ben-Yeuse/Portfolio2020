@@ -4,12 +4,166 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Bootstrap -->
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <!-- Custom CSS file -->
     <link rel="stylesheet" type="text/css" href="css/custom.css">
     <title>Portfolio of Ben Yeuse</title>
   </head>
   <body>
-    <h1>Mon portfolio !</h1>
+    <nav class="navbar navbar-expand">
+    <!-- Top Menu >= md -->
+      <div class="nav-content w-100 d-none d-md-flex align-items-end">
+        <a class="navbar-brand" href="#">Ben Yeuse</a>
+        <div class="navbar-nav">
+          <a class="nav-item nav-link" href="#">Creations</a>
+          <a class="nav-item nav-link" href="#">About</a>
+        </div>
+        <div class="nav-social ml-auto">
+          <a href="#"><img src="images/github-sign.png" alt="Github logo" /></a>
+          <a href="#"><img src="images/linkedin-sign.png" alt="Linkedin logo" /></a>
+        </div>
+      </div>
+    <!-- Top Menu < md -->
+      <div class="nav-content w-100 d-md-none d-flex align-items-end">
+        <a class="navbar-brand" href="#">Ben Yeuse</a>
+        <div class="dropdown">
+          <a id="dropdown-menu-link" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="arrow-down d-inline-block"></i>
+          </a>
+          <div class="dropdown-menu" aria-labelledby="dropdown-menu-link">
+            <a class="nav-item nav-link dropdown-item" href="#">Creations</a>
+            <a class="nav-item nav-link dropdown-item" href="#">About</a>
+          </div>
+        </div>
+        <div class="nav-social ml-auto">
+          <a href="#"><img src="images/github-sign.png" alt="Github logo" /></a>
+          <a href="#"><img src="images/linkedin-sign.png" alt="Linkedin logo" /></a>
+        </div>
+      </div>
+    </nav>
+    <!-- Hero -->
+    <div class="d-none d-md-block">
+      <h1>Full-stack Web Developer<br />&<br />Web Entrepreneur</h1>
+    </div>
+    <div class="d-block d-md-none">
+      <h1 id="h1-compact">Full-stack Web<br />Developer<br />&<br />Web Entrepreneur</h1>
+    </div>
+    <!-- Sections -->
+    <div class="container-fluid">
+      <!-- First project -->
+      <div class="row">
+        <div class="section-title col-12">
+          <h2>Lorem ipsum</h2>
+        </div>
+      </div>
+      <div class="presentation-project row">
+        <div class="section-img col-12 col-lg-6 text-center">
+          <img src="images/stock.jpg" class="img-fluid" alt="#">
+        </div>
+        <div class="section-middle col-md-1 d-none d-lg-flex align-items-center justify-content-around">
+          <div class="separator"></div>
+        </div>
+        <div class="section-text col-12 col-lg-5 d-flex justify-content-center">
+          <ul>
+            <li>Ut pharetra risus et ante ultrices, ut gravida ante tempus.</li>
+            <li>Mauris pharetra arcu at molestie cursus.</li>
+            <li>Sed in faucibus eros, id efficitur velit.</li>
+            <li>Etiam ac velit semper eros placerat aliquam.</li>
+            <li>In eleifend ipsum vel neque efficitur luctus.</li>
+          </ul>
+        </div>
+      </div>
+      <!-- Second project -->
+      <div class="row">
+        <div class="section-title col-12">
+          <h2>Etiam commodo</h2>
+        </div>
+      </div>
+      <div class="presentation-project row">
+        <div class="section-text col-12 col-lg-5 d-flex justify-content-center">
+          <ul>
+            <li>Nulla ultricies luctus lorem sed laoreet.</li>
+            <li>Pellentesque dapibus orci vel fermentum suscipit.</li>
+            <li>Morbi vitae tortor vitae lorem sodales viverra eu id justo.</li>
+            <li>Vivamus eget dolor quis ex pharetra sodales.</li>
+            <li>Sed sit amet nisi feugiat, varius sem ac, rutrum ex.</li>
+          </ul>
+        </div>
+        <div class="section-middle col-md-1 d-none d-lg-flex align-items-center justify-content-around">
+          <div class="separator"></div>
+        </div>
+        <div class="section-img col-12 col-lg-6 text-center">
+          <img src="images/modern-technologies.jpg" class="img-fluid" alt="#">
+        </div>
+      </div>
+      <!-- third project -->
+      <div class="row">
+        <div class="section-title col-12">
+          <h2>Curabitur suscipit</h2>
+        </div>
+      </div>
+      <div class="presentation-project row">
+        <div class="section-img col-12 col-lg-6 text-center">
+          <img src="images/eet.jpg" class="img-fluid" alt="#">
+        </div>
+        <div class="section-middle col-md-1 d-none d-lg-flex align-items-center justify-content-around">
+          <div class="separator"></div>
+        </div>
+        <div class="section-text col-12 col-lg-5 d-flex justify-content-center">
+          <ul>
+            <li>Nunc ut ex ac elit fermentum maximus in et velit.</li>
+            <li>Suspendisse luctus arcu sit amet bibendum tincidunt.</li>
+            <li>Duis interdum non metus eu pretium. </li>
+            <li>Quisque scelerisque mauris id pharetra bibendum.</li>
+            <li>Duis quis nibh sed tellus pretium sodales.</li>
+          </ul>
+        </div>
+      </div>
+      <!-- fourth project -->
+      <div class="row">
+        <div class="section-title col-12">
+          <h2>Nulla luctus</h2>
+        </div>
+      </div>
+      <div class="presentation-project row">
+        <div class="section-text col-12 col-lg-5 d-flex justify-content-center">
+          <ul>
+            <li>Donec nec arcu a elit vehicula blandit a sed massa.</li>
+            <li>Donec ut scelerisque sem, vitae lobortis metus.</li>
+            <li>Sed pharetra gravida orci at feugiat.</li>
+            <li>Phasellus ac ex volutpat, viverra arcu ut, luctus est.</li>
+            <li>Nam et risus pellentesque diam sodales porttitor ac ac felis.</li>
+          </ul>
+        </div>
+        <div class="section-middle col-md-1 d-none d-lg-flex align-items-center justify-content-around">
+          <div class="separator"></div>
+        </div>
+        <div class="section-img col-12 col-lg-6 text-center">
+          <img src="images/imac.jpg" class="img-fluid" alt="#">
+        </div>
+      </div>
+    </div>
+    <!-- Footer -->
+    <footer>
+      <div class="d-flex justify-content-center">
+        <div class="presentation-img text-center">
+          <img src="images/user.png">
+        </div>
+        <p class="presentation-text text-justify">
+          <span id="about">About </span>Duis quis nibh sed tellus pretium sodales.
+          Integer dictum accumsan nisl, posuere volutpat sem fringilla nec.
+          Sed condimentum erat vitae magna viverra sollicitudin.
+          Nam vel dignissim eros. Quisque venenatis scelerisque nunc id aliquam.
+          Fusce ut euismod turpis, vel bibendum augue.
+          Integer molestie consectetur semper.
+        </p>
+      </div>
+      <div class="footer-end">
+        <p>&copy;Ben Yeuse 2020</p>
+      </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
   </body>
 </html>
