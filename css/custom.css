@@ -136,3 +136,30 @@ h2 {
   margin-top: 12px;
   margin-bottom: 12px;
 }
+
+/* Footer */
+
+footer {
+  border-top: #DDD solid 1px;
+  padding-top: 60px;
+}
+.presentation-img {
+  margin-left: 25px;
+}
+.presentation-text {
+  width: 30rem;
+  margin-left: 25px;
+  margin-right: 25px;
+  font-size: 0.9em;
+  line-height: 1.5rem;
+}
+#about {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+.footer-end {
+  border-top: #DDD solid 1px;
+  margin-top: 30px;
+  padding-top: 10px;
+  padding-left: 25px;
+}
