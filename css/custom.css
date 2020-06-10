@@ -2,6 +2,7 @@
   position: fixed;
   top: 25px;
   right: 5px;
+  z-index: 1;
 }
 #nav-hero {
   background-image: url("../images/coffee_opacity.png");
